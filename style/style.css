@@ -25,6 +25,18 @@ body {
     padding: 18px 35px;
 }
 
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+main section {
+    margin: 130px 0;
+
+}
+
 /* nav related style */
 
 
@@ -83,7 +95,7 @@ header {
     margin: 5px;
 }
 
-.bannar-Name{
+.bannar-Name {
     font-size: 85px;
     margin: 0;
     line-height: normal;
@@ -103,39 +115,102 @@ header {
 
 /* main section start */
 
-main{
+main {
     max-width: 1140px;
     margin: auto;
 }
+
 /* about secrion start */
 
-.about{
+.about {
     background-color: #FFF8F3;
-    margin: 130px 0;
-    padding: 150px;
+    padding: 100px 150px;
 
 }
 
 
 
 
-.section-title {
-    color: #181818;
-    text-align: center;
-    font-size: 35px;
-    font-weight: 700;
-}
+
 
 .about-desc {
-    color:  #757575;
+    color: #757575;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
 }
 
-.about-info-container{
+.about-info-container {
     display: flex;
     justify-content: space-between;
     text-align: center;
+}
+
+#what-i-do {
+    width: 900px;
+    margin: auto;
+}
+
+.skills-container {
+    margin-top: 50px;
+    display: flex;
+    gap: 24px;
+    /* justify-content: space-between; */
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    color: #757575;
+
+}
+
+.resume {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 50px;
+}
+.resume-item{
+    margin-bottom: 50px;
+}
+
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.resume-item-institute {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.resume-item-desc{
+    color:  #757575;
+font-size: 16px;
+font-weight: 400;
+}
+
+.resume-item hr{
+    /* margin: 30px; */
+    margin-top: 0;
+    margin: 0;
+
+}
+
+.button{
+    text-align: center;
+    /* margin-top: 50px; */
 }
