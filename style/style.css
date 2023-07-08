@@ -51,3 +51,29 @@ nav li {
 nav ul li a {
     text-decoration: none;
 }
+
+/* header related css */
+
+header {
+    margin: 30px 30px 30px 150px;
+}
+
+.bannar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bannar-greeting {
+    color: #474747);
+    font-size: 45px;
+}
+.bannar-Name{
+    font-size: 85px;
+    line-height: normal;
+
+}
+.bannar-disc{
+    color: #757575;
+
+}
